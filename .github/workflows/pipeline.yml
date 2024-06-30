@@ -25,6 +25,6 @@ jobs:
     - name: Install npm Dependencies    
       run: npm install
     - name: Unit Test
-      run: npm test:unit
+      run: npm run test:unit
     - name: Display SoftUni UserName - @VPP88
       run: echo '@VPP88'
